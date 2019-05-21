@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using web.api.Properties.Models;
+using web.api.Models;
 
 namespace web.api.Data
 
@@ -10,5 +10,6 @@ namespace web.api.Data
 
 
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-namespace web.api.Properties.Models
+namespace web.api.Models
 {
     public class Value
     {
